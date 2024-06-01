@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://pq4a75ide2js"]
+
+[ext_resource type="Script" path="res://scripts/camera_2d_wrapper.gd" id="1_e5f25"]
+
+[node name="Camera2DWrapper" type="Camera2D"]
+script = ExtResource("1_e5f25")
