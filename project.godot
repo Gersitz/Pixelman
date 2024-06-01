@@ -11,5 +11,19 @@ config_version=5
 [application]
 
 config/name="Pixelman"
+run/main_scene="res://scenes/game.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+textures/stretch/mode="disabled"
+textures/size/viewport_height=648
+textures/size/viewport_width=1152
